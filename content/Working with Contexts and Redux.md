@@ -1,6 +1,5 @@
 # Working with Redux Contexts
 
-
 Back when we were looking at the Packing List application. I noted that these two tests were subtly-flawed.
 
 ```ts

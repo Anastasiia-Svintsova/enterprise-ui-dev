@@ -2,7 +2,7 @@
 
 **Nota bene**: In order to parallelize tests, you have to use [Test Context](Test%20Context.md). So, if we haven't talked about that, let's pause and do that now.
 
-**TL;DR** Parallelizing tests is *basically* only useful when you've got a bunch of long-running asynchronous (read: *non-blocking*) tests.
+**TL;DR** Parallelizing tests is _basically_ only useful when you've got a bunch of long-running asynchronous (read: _non-blocking_) tests.
 
 Consider this ridiculous example as a though exercise:
 

@@ -126,4 +126,3 @@ Take a look at `src/examples/parameterizing-tests/polygon.test.ts`. Can you gene
 **Nota bene**: This is part of a series of tips and tricks that are definitely bad ideas. That said, they're surprising effective and sometimes you have to break the rules, right?
 
 I know. I have TypeScript to verify that a function will only get the arguments that I say it will. But, TypeScript can only analyze your code base. If a piece of my code has any interaction with the outside world, I might choose to add some guards in order to make sure it doesn't blow up. I'll use test parameters to make this easy for myself.
-
