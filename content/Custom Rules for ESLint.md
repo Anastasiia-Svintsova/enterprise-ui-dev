@@ -148,4 +148,4 @@ logError(
 
 There is a flaw here that is _not_ worth our time _right now_. Neither of these commands are globally available—so, we'd probably want to at least add an `import` statement to the top of the file. We can traverse up and down the AST. So, you _could_ add that—later.
 
-[Create ESLint Rule (Solution)](Create%20ESLint%20Rule%20(Solution).md)
+[Create ESLint Rule (Solution)](<Create%20ESLint%20Rule%20(Solution).md>)

@@ -12,12 +12,9 @@ import { KanbanBoard } from '$lib/kanban-board';
  * toThrowError: https://vitest.dev/api/expect.html#tothrowerror
  */
 
-it(
-  'should pass if the two numbers would add up correctly in a language other than JavaScript',
-  () => {
-    expect(0.2 + 0.1).toBeCloseTo(0.3);
-  },
-);
+it('should pass if the two numbers would add up correctly in a language other than JavaScript', () => {
+  expect(0.2 + 0.1).toBeCloseTo(0.3);
+});
 
 describe('createPerson', () => {
   it('should create an instance of a person', () => {
@@ -37,17 +34,14 @@ describe('Kanban Board', () => {
   it('should *not* include "Bogus" in board.statuses', () => {
     const board = new KanbanBoard('Things to Do');
     expect.hasAssertions();
-    expect(board.statuses).not.toContain("Bogus");
+    expect(board.statuses).not.toContain('Bogus');
   });
 
-  it(
-    'should include an added status in board.statuses using #addStatus',
-    () => {
-      const board = new KanbanBoard('Things to Do');
-      board.addStatus('Verifying');
-      expect(board.statuses).toContain('Verifying');
-    },
-  );
+  it('should include an added status in board.statuses using #addStatus', () => {
+    const board = new KanbanBoard('Things to Do');
+    board.addStatus('Verifying');
+    expect(board.statuses).toContain('Verifying');
+  });
 
   it('should remove a status using #removeStatus', () => {
     const board = new KanbanBoard('Things to Do');
@@ -58,7 +52,7 @@ describe('Kanban Board', () => {
     const returnValue = board.removeStatus(status);
 
     expect(board.statuses).not.toContain(status);
-    expect(returnValue).toBe(4)
+    expect(returnValue).toBe(4);
   });
 });
 

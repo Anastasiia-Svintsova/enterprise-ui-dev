@@ -1,4 +1,5 @@
 # Recording, Screenshots, and Snapshots
+
 with Playwright
 
 Typing stuff out is all well and good, but if we're looking to get some amount of coverage really quickly _and_ we're willing to remember that there is a lot of value in just making sure everything is where we expect, we can get use Playwright's recording feature to get a sanity check quickly.

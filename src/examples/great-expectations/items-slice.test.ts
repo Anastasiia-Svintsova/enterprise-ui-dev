@@ -100,7 +100,7 @@ it('supports marking all items as unpacked', () => {
   const result = reducer(state, markAllAsUnpacked());
 
   expect(result).toEqual([
-    expect.objectContaining({packed: false}),
-    expect.objectContaining({packed: false}),
-  ])
+    expect.objectContaining({ packed: false }),
+    expect.objectContaining({ packed: false }),
+  ]);
 });
